@@ -1,0 +1,10 @@
+name: Deploy Hello
+
+on: WorkflowDispatch
+
+jobs:
+  deploy-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Hello
+        run: echo "Hello, world!"
